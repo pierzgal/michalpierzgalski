@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Hugo 0.76.2" />
 
-  <title>R Console &middot; Michał Pierzgalski</title>
+  <title>Run R console &middot; Michał Pierzgalski</title>
 
   <meta name="description" content="" />
 
   
 
-<meta itemprop="name" content="R Console">
-<meta itemprop="description" content="Run ReyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9 ----------">
+<meta itemprop="name" content="Run R console">
+<meta itemprop="description" content="You can use the tutorial package to convert static code chunks into ‘fiddles’, i.">
 
-<meta itemprop="wordCount" content="8">
+<meta itemprop="wordCount" content="38">
 <meta itemprop="image" content="/michalpierzgalski/images/profile.png"/>
 
 
@@ -25,12 +25,12 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/michalpierzgalski/images/profile.png"/>
 
-<meta name="twitter:title" content="R Console"/>
-<meta name="twitter:description" content="Run ReyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9 ----------"/>
+<meta name="twitter:title" content="Run R console"/>
+<meta name="twitter:description" content="You can use the tutorial package to convert static code chunks into ‘fiddles’, i."/>
 
 
-<meta property="og:title" content="R Console" />
-<meta property="og:description" content="Run ReyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9 ----------" />
+<meta property="og:title" content="Run R console" />
+<meta property="og:description" content="You can use the tutorial package to convert static code chunks into ‘fiddles’, i." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/michalpierzgalski/rconsole/" />
 <meta property="og:image" content="/michalpierzgalski/images/profile.png"/>
@@ -161,7 +161,7 @@
 
   <main class="content container">
   <div class="post">
-  <h1>R Console</h1>
+  <h1>Run R console</h1>
 
   
 
@@ -170,22 +170,15 @@
 
 
 <script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
-<div id="run-r" class="section level2">
-<h2>Run R</h2>
+<p>You can use the <code>tutorial</code> package to convert static code chunks into ‘fiddles’, i.e. editors where people can experiment with your code. If you specify the <code>ex</code> and <code>type</code> properties, <code>tutorial</code> knows what to do:</p>
 <div data-datacamp-exercise="" data-height="300" data-encoded="true">
-eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9
+eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiJhIDwtIDJcbmIgPC0gM1xuXG5hICsgYiJ9
 </div>
-<!-- ```{js, echo=FALSE} -->
-<!-- $('.title').css('color', 'red') -->
-<!-- <script type="text/javascript" src="//cdn.datacamp.com/dcl/lastest/dcl-react.js.gz"></script> -->
-<!-- <div data-datacamp-exercise data-lang="r"> -->
-<!--   <!-- The exercise specification will go here -->
-<!-- <code data-type="pre-exercise-code"> -->
-<!--    # This will get executed each time the exercise gets initialized -->
-<!--    b = 6 -->
-<!-- </code> -->
-<!-- </div> -->
-<!-- ``` -->
+<div data-datacamp-exercise="" data-height="300" data-encoded="true">
+eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuIyBDcmVhdGUgdmFyaWFibGVzXG5hMSA8LSAtMS45NlxuYTIgPC0gMS45NlxuXG5wMSA9IHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKSAtIHBub3JtKGExLCBtZWFuID0gMCwgc2QgPSAxKVxuXG4jIFByaW50IG91dCBwMVxucHJpbnQocDEpIn0=
+</div>
+<div data-datacamp-exercise="" data-height="300" data-encoded="true">
+eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAyLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoeCA+IDEuOTYpXG5cbmExIDwtIC0xLjk2XG5hMiA8LSAxLjk2XG5cbnAyID0gMSAtIHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKVxucHJpbnQocDIpIn0=
 </div>
 
 </div>
