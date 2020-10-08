@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Hugo 0.76.2" />
 
-  <title>R console &middot; Michał Pierzgalski</title>
+  <title>R Console &middot; Michał Pierzgalski</title>
 
   <meta name="description" content="" />
 
   
 
-<meta itemprop="name" content="R console">
-<meta itemprop="description" content="R Console 1eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9 ----–&gt;----">
+<meta itemprop="name" content="R Console">
+<meta itemprop="description" content="Run ReyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9 ----------">
 
-<meta itemprop="wordCount" content="10">
+<meta itemprop="wordCount" content="8">
 <meta itemprop="image" content="/michalpierzgalski/images/profile.png"/>
 
 
@@ -25,12 +25,12 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/michalpierzgalski/images/profile.png"/>
 
-<meta name="twitter:title" content="R console"/>
-<meta name="twitter:description" content="R Console 1eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9 ----–&gt;----"/>
+<meta name="twitter:title" content="R Console"/>
+<meta name="twitter:description" content="Run ReyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9 ----------"/>
 
 
-<meta property="og:title" content="R console" />
-<meta property="og:description" content="R Console 1eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9 ----–&gt;----" />
+<meta property="og:title" content="R Console" />
+<meta property="og:description" content="Run ReyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9 ----------" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/michalpierzgalski/rconsole/" />
 <meta property="og:image" content="/michalpierzgalski/images/profile.png"/>
@@ -131,7 +131,7 @@
 
   <main class="content container">
   <div class="post">
-  <h1>R console</h1>
+  <h1>R Console</h1>
 
   
 
@@ -140,8 +140,8 @@
 
 
 <script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
-<div id="r-console-1" class="section level2">
-<h2>R Console 1</h2>
+<div id="run-r" class="section level2">
+<h2>Run R</h2>
 <div data-datacamp-exercise="" data-height="300" data-encoded="true">
 eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuYTEgPC0gLTEuOTZcbmEyIDwtIDEuOTZcblxucDEgPSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSkgLSBwbm9ybShhMSwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAxKVxuXG5cbiMgMi4gVXNpbmcgc3RhbmRhcmQgbm9ybWFsIGRpc3RyaWJ1dGlvbiwgY29tcHV0ZSBQKHggPiAxLjk2KVxuXG5wMiA9IDEgLSBwbm9ybShhMiwgbWVhbiA9IDAsIHNkID0gMSlcbnByaW50KHAyKSJ9
 </div>
@@ -150,11 +150,10 @@ eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAs
 <!-- <script type="text/javascript" src="//cdn.datacamp.com/dcl/lastest/dcl-react.js.gz"></script> -->
 <!-- <div data-datacamp-exercise data-lang="r"> -->
 <!--   <!-- The exercise specification will go here -->
-<p>–&gt;
 <!-- <code data-type="pre-exercise-code"> -->
 <!--    # This will get executed each time the exercise gets initialized -->
 <!--    b = 6 -->
-<!-- </code> --></p>
+<!-- </code> -->
 <!-- </div> -->
 <!-- ``` -->
 </div>
