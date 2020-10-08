@@ -12,9 +12,9 @@
   
 
 <meta itemprop="name" content="Run R console">
-<meta itemprop="description" content="You can use the tutorial package to convert static code chunks into ‘fiddles’, i.">
+<meta itemprop="description" content="Useful R commands for data analysiseyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuIyBDcmVhdGUgdmFyaWFibGVzXG5hMSA8LSAtMS45NlxuYTIgPC0gMS45NlxuXG5wMSA9IHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKSAtIHBub3JtKGExLCBtZWFuID0gMCwgc2QgPSAxKVxuXG4jIFByaW50IG91dCBwMVxucHJpbnQocDEpIn0=eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAyLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoeCA&#43;IDEuOTYpXG5cbmExIDwtIC0xLjk2XG5hMiA8LSAxLjk2XG5cbnAyID0gMSAtIHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKVxucHJpbnQocDIpIn0=">
 
-<meta itemprop="wordCount" content="38">
+<meta itemprop="wordCount" content="8">
 <meta itemprop="image" content="/michalpierzgalski/images/profile.png"/>
 
 
@@ -26,11 +26,11 @@
 <meta name="twitter:image" content="/michalpierzgalski/images/profile.png"/>
 
 <meta name="twitter:title" content="Run R console"/>
-<meta name="twitter:description" content="You can use the tutorial package to convert static code chunks into ‘fiddles’, i."/>
+<meta name="twitter:description" content="Useful R commands for data analysiseyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuIyBDcmVhdGUgdmFyaWFibGVzXG5hMSA8LSAtMS45NlxuYTIgPC0gMS45NlxuXG5wMSA9IHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKSAtIHBub3JtKGExLCBtZWFuID0gMCwgc2QgPSAxKVxuXG4jIFByaW50IG91dCBwMVxucHJpbnQocDEpIn0=eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAyLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoeCA&#43;IDEuOTYpXG5cbmExIDwtIC0xLjk2XG5hMiA8LSAxLjk2XG5cbnAyID0gMSAtIHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKVxucHJpbnQocDIpIn0="/>
 
 
 <meta property="og:title" content="Run R console" />
-<meta property="og:description" content="You can use the tutorial package to convert static code chunks into ‘fiddles’, i." />
+<meta property="og:description" content="Useful R commands for data analysiseyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuIyBDcmVhdGUgdmFyaWFibGVzXG5hMSA8LSAtMS45NlxuYTIgPC0gMS45NlxuXG5wMSA9IHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKSAtIHBub3JtKGExLCBtZWFuID0gMCwgc2QgPSAxKVxuXG4jIFByaW50IG91dCBwMVxucHJpbnQocDEpIn0=eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAyLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoeCA&#43;IDEuOTYpXG5cbmExIDwtIC0xLjk2XG5hMiA8LSAxLjk2XG5cbnAyID0gMSAtIHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKVxucHJpbnQocDIpIn0=" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/michalpierzgalski/rconsole/" />
 <meta property="og:image" content="/michalpierzgalski/images/profile.png"/>
@@ -170,15 +170,14 @@
 
 
 <script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
-<p>You can use the <code>tutorial</code> package to convert static code chunks into ‘fiddles’, i.e. editors where people can experiment with your code. If you specify the <code>ex</code> and <code>type</code> properties, <code>tutorial</code> knows what to do:</p>
-<div data-datacamp-exercise="" data-height="300" data-encoded="true">
-eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiJhIDwtIDJcbmIgPC0gM1xuXG5hICsgYiJ9
-</div>
+<div id="useful-r-commands-for-data-analysis" class="section level2">
+<h2>Useful R commands for data analysis</h2>
 <div data-datacamp-exercise="" data-height="300" data-encoded="true">
 eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAxLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoLTEuOTYgPCB4IDwgMS45NilcblxuIyBDcmVhdGUgdmFyaWFibGVzXG5hMSA8LSAtMS45NlxuYTIgPC0gMS45NlxuXG5wMSA9IHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKSAtIHBub3JtKGExLCBtZWFuID0gMCwgc2QgPSAxKVxuXG4jIFByaW50IG91dCBwMVxucHJpbnQocDEpIn0=
 </div>
 <div data-datacamp-exercise="" data-height="300" data-encoded="true">
 eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAyLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoeCA+IDEuOTYpXG5cbmExIDwtIC0xLjk2XG5hMiA8LSAxLjk2XG5cbnAyID0gMSAtIHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKVxucHJpbnQocDIpIn0=
+</div>
 </div>
 
 </div>
