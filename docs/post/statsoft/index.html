@@ -15,7 +15,7 @@
 <meta itemprop="description" content="Short article showcasing basic statistical software useful for learning or teaching statistics.">
 <meta itemprop="datePublished" content="2020-10-08T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-08T00:00:00+00:00" />
-<meta itemprop="wordCount" content="439">
+<meta itemprop="wordCount" content="450">
 <meta itemprop="image" content="/michalpierzgalski/images/profile.png"/>
 
 
@@ -226,17 +226,24 @@
 <li>STAT 200: <a href="https://online.stat.psu.edu/stat200/home" class="uri">https://online.stat.psu.edu/stat200/home</a></li>
 </ul>
 </div>
-<div id="some-useful-r-commands-for-students-learning-fundamentals-of-statistics" class="section level3">
-<h3>Some useful R commands for students learning fundamentals of statistics</h3>
+</div>
+<div id="some-useful-r-commands-for-students-learning-fundamentals-of-statistics" class="section level2">
+<h2>Some useful R commands for students learning fundamentals of statistics</h2>
 <div id="compute-probabilities-using-normally-distributed-data" class="section level4">
 <h4>Compute probabilities using normally distributed data</h4>
-<pre class="r"><code># pnorm(); the function pnorm returns the value of the cumulative density function (cdf) of the normal distribution given a certain random variable q, a population mean μ and population standard deviation σ. The syntax for using pnorm is as follows:
+<pre class="r"><code># pnorm(); the function pnorm returns the value of the cumulative density function (cdf) of the normal distribution given a certain random variable q, a population mean μ and population standard deviation σ.
+# The syntax for using pnorm is as follows:
+# pnorm(q, mean, sd)
+
+## Example
 
 q = 1.645
 mean = 0
 sd = 1
 
 p = pnorm(q, mean, sd) 
+
+### Print the outcome
 
 print(p)</code></pre>
 <pre><code>## [1] 0.9500151</code></pre>
@@ -250,7 +257,6 @@ eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAs
 <h5>Example 2</h5>
 <div data-datacamp-exercise="" data-height="300" data-encoded="true">
 eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAyLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoeCA+IDEuOTYpXG5cbmExIDwtIC0xLjk2XG5hMiA8LSAxLjk2XG5cbnAyID0gMSAtIHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKVxucHJpbnQocDIpIn0=
-</div>
 </div>
 </div>
 </div>
