@@ -303,3 +303,5 @@ ul.posts {
   background-color: #ECEFF1 !important;
   border: 1px solid #546E7A;
 }
+
+.lead { font-size: 0.75rem !important; }
