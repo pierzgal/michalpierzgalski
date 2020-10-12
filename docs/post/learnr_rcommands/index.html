@@ -15,7 +15,7 @@
 <meta itemprop="description" content="Some useful R commands for students learning fundamentals of statistics1.">
 <meta itemprop="datePublished" content="2020-10-09T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="204">
+<meta itemprop="wordCount" content="195">
 <meta itemprop="image" content="/michalpierzgalski/images/profile.png"/>
 
 
@@ -165,12 +165,10 @@ p = pnorm(t, mean, sd)
 print(p)</code></pre>
 <pre><code>## [1] 0.9500151</code></pre>
 <p><span class="math display">\[
-pnorm(x, \mu, \sigma) = cdf(x) =
+pnorm(x, \mu, \sigma) = F(x) =
 \]</span>
 <span class="math display">\[
-= F(x) = \displaystyle
-\frac{1}{\sigma \sqrt{2\pi}}\int_{-\infty}^{x} \exp\left\{
--\frac{1}{2} \left( \frac{t-\mu}{\sigma} \right)^2 \right\}\,dt
+= \frac{1}{\sigma \sqrt{2\pi}}\int_{-\infty}^{x} \exp\left\{-\frac{1}{2} \left( \frac{t-\mu}{\sigma} \right)^2 \right\}\,dt
 \]</span></p>
 </div>
 <div id="z-score" class="section level5">
@@ -178,16 +176,11 @@ pnorm(x, \mu, \sigma) = cdf(x) =
 <blockquote>
 <p>In statistics, the standard score is the number of standard deviations by which the value of a raw score (i.e., an observed value or data point) is above or below the mean value of what is being observed or measured. Raw scores above the mean have positive standard scores, while those below the mean have negative standard scores. (read more: <a href="https://en.wikipedia.org/wiki/Standard_score" class="uri">https://en.wikipedia.org/wiki/Standard_score</a>)</p>
 </blockquote>
-<p><span class="math display">\[
-\text{z-score} = z(x) = \frac{x - \mu_{X}}{\sigma_{X}} 
-\]</span></p>
+<p><span class="math inline">\(\text{z-score} = z(x) = \frac{x - \mu_{X}}{\sigma_{X}}\)</span></p>
 </div>
 <div id="cumulative-distribution-function-of-the-standard-normal-distribution" class="section level5">
 <h5>Cumulative Distribution Function of the Standard Normal Distribution</h5>
-<p><span class="math display">\[
-F(x) = \displaystyle
-\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{x} e^{\frac{-z^2}{2}}\,dz
-\]</span></p>
+<p><span class="math inline">\(F(x) = \frac{1}{\sqrt{2\pi}}\int_{-\infty}^{x} e^{\frac{-z^2}{2}}\,dz\)</span></p>
 </div>
 <div id="example-1" class="section level5">
 <h5>Example 1</h5>
