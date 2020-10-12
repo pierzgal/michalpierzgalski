@@ -3,13 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/michalpierzgalski/post/learnr_rcommands/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/michalpierzgalski/post/</loc>
-    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/michalpierzgalski/</loc>
-    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -104,10 +109,6 @@
   
   <url>
     <loc>/michalpierzgalski/tags/index/</loc>
-  </url>
-  
-  <url>
-    <loc>/michalpierzgalski/post/learnr_rcommands/</loc>
   </url>
   
 </urlset>

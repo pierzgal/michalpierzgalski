@@ -6,7 +6,16 @@
     <description>Recent content in Soho Theme on Michał Pierzgalski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/michalpierzgalski/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/michalpierzgalski/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning statistics - a few useful R commands</title>
+      <link>/michalpierzgalski/post/learnr_rcommands/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/michalpierzgalski/post/learnr_rcommands/</guid>
+      <description>Some useful R commands for students learning fundamentals of statistics1.</description>
+    </item>
+    
     <item>
       <title>STAT software - the student&#39;s guide</title>
       <link>/michalpierzgalski/post/statsoft/</link>
@@ -78,15 +87,6 @@
       
       <guid>/michalpierzgalski/contact/</guid>
       <description>Email &amp;lt;- str_c( &amp;#34;michal.pierzgalski&amp;#34;, &amp;#34;@&amp;#34;, &amp;#34;uni.lodz.pl&amp;#34; )  Department of International and Political Studies</description>
-    </item>
-    
-    <item>
-      <title>Learning statistics - a few useful R commands</title>
-      <link>/michalpierzgalski/post/learnr_rcommands/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/michalpierzgalski/post/learnr_rcommands/</guid>
-      <description>Some useful R commands for students learning fundamentals of statistics1.</description>
     </item>
     
   </channel>
