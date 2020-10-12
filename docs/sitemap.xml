@@ -3,107 +3,111 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/post/</loc>
+    <loc>/michalpierzgalski/post/</loc>
     <lastmod>2020-10-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/</loc>
+    <loc>/michalpierzgalski/</loc>
     <lastmod>2020-10-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/post/statsoft/</loc>
+    <loc>/michalpierzgalski/post/statsoft/</loc>
     <lastmod>2020-10-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/archives/</loc>
+    <loc>/michalpierzgalski/dydaktyka/</loc>
+    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/michalpierzgalski/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/categories/</loc>
+    <loc>/michalpierzgalski/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/css/</loc>
+    <loc>/michalpierzgalski/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/html/</loc>
+    <loc>/michalpierzgalski/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/markdown/</loc>
+    <loc>/michalpierzgalski/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/post/markdown-syntax/</loc>
+    <loc>/michalpierzgalski/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/series/</loc>
+    <loc>/michalpierzgalski/series/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/categories/syntax/</loc>
+    <loc>/michalpierzgalski/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/</loc>
+    <loc>/michalpierzgalski/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/themes/</loc>
+    <loc>/michalpierzgalski/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/categories/themes/</loc>
+    <loc>/michalpierzgalski/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/series/themes-guide/</loc>
+    <loc>/michalpierzgalski/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/about/</loc>
+    <loc>/michalpierzgalski/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/dydaktyka/</loc>
+    <loc>/michalpierzgalski/research/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/research/</loc>
+    <loc>/michalpierzgalski/teaching/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/teaching/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/contact/</loc>
+    <loc>/michalpierzgalski/contact/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/index/</loc>
+    <loc>/michalpierzgalski/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>/michalpierzgalski/post/learnr_rcommands/</loc>
   </url>
   
 </urlset>
