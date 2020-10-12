@@ -15,7 +15,7 @@
 <meta itemprop="description" content="Some useful R commands for students learning fundamentals of statistics1.">
 <meta itemprop="datePublished" content="2020-10-09T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="195">
+<meta itemprop="wordCount" content="196">
 <meta itemprop="image" content="/michalpierzgalski/images/profile.png"/>
 
 
@@ -146,8 +146,8 @@
 <h2>Some useful R commands for students learning fundamentals of statistics</h2>
 <div id="compute-probabilities-using-normally-distributed-data" class="section level3">
 <h3>1. Compute probabilities using normally distributed data</h3>
-<div id="pnormt-mean-sd" class="section level5">
-<h5>pnorm(t, mean, sd)</h5>
+<div id="pnormt-mean-sd-function" class="section level5">
+<h5><em>pnorm(t, mean, sd)</em> function</h5>
 <pre class="r"><code># pnorm(); the function pnorm returns the value of the cumulative density function (cdf) of the normal distribution given a certain random variable t, a population mean μ and population standard deviation σ.
 # The syntax for using pnorm is as follows:
 # pnorm(t, mean, sd)
@@ -166,8 +166,8 @@ print(p)</code></pre>
 <pre><code>## [1] 0.9500151</code></pre>
 <p><span class="math display">\[
 pnorm(x, \mu, \sigma) = F(x) =
-\]</span>
-<span class="math display">\[
+\]</span></p>
+<p><span class="math display">\[
 = \frac{1}{\sigma \sqrt{2\pi}}\int_{-\infty}^{x} \exp\left\{-\frac{1}{2} \left( \frac{t-\mu}{\sigma} \right)^2 \right\}\,dt
 \]</span></p>
 </div>
