@@ -2,81 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soho Theme on Michał Pierzgalski</title>
-    <link>https://pierzgal.github.io/michalpierzgalski/</link>
+    <link>/michalpierzgalski/</link>
     <description>Recent content in Soho Theme on Michał Pierzgalski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pierzgal.github.io/michalpierzgalski/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/michalpierzgalski/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning statistics - a few useful R commands</title>
+      <link>/michalpierzgalski/post/learnr_rcommands/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/michalpierzgalski/post/learnr_rcommands/</guid>
+      <description>Some useful R commands for students learning fundamentals of statistics1.</description>
+    </item>
+    
     <item>
       <title>STAT software - the student&#39;s guide</title>
-      <link>https://pierzgal.github.io/michalpierzgalski/post/statsoft/</link>
+      <link>/michalpierzgalski/post/statsoft/</link>
       <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pierzgal.github.io/michalpierzgalski/post/statsoft/</guid>
+      <guid>/michalpierzgalski/post/statsoft/</guid>
       <description>Learning statistics using technology - useful tools and services for students and teachersPopular and powerfull statistical software useful for learning or teaching statisticsThe R Project for Statistical Computing: https://www.</description>
     </item>
     
     <item>
       <title>Dydaktyka (Uniwersytet Łódzki)</title>
-      <link>https://pierzgal.github.io/michalpierzgalski/dydaktyka/</link>
+      <link>/michalpierzgalski/dydaktyka/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pierzgal.github.io/michalpierzgalski/dydaktyka/</guid>
+      <guid>/michalpierzgalski/dydaktyka/</guid>
       <description>Rok 2020/2021 (zima) 1. Metodologia badań stosunków międzynarodowych (C)  Opis zajęć (LINK) Notatki do ćwiczeń (w przygotowaniu) Link do folderu z lekturami: LINK  Literatura podstawowa:  Babbie, E.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://pierzgal.github.io/michalpierzgalski/archives/</link>
+      <link>/michalpierzgalski/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pierzgal.github.io/michalpierzgalski/archives/</guid>
+      <guid>/michalpierzgalski/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://pierzgal.github.io/michalpierzgalski/post/markdown-syntax/</link>
+      <link>/michalpierzgalski/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pierzgal.github.io/michalpierzgalski/post/markdown-syntax/</guid>
+      <guid>/michalpierzgalski/post/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://pierzgal.github.io/michalpierzgalski/about/</link>
+      <link>/michalpierzgalski/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pierzgal.github.io/michalpierzgalski/about/</guid>
+      <guid>/michalpierzgalski/about/</guid>
       <description>I am an Assistant Professor in the Department of International and Political Studies at the University of Lodz (Wydział Studiów Międzynarodowych i Politologicznych | Uniwersytet Łódzki).</description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>https://pierzgal.github.io/michalpierzgalski/research/</link>
+      <link>/michalpierzgalski/research/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pierzgal.github.io/michalpierzgalski/research/</guid>
+      <guid>/michalpierzgalski/research/</guid>
       <description>My research focuses on voting systems and electoral behavior. I also have an interest in research methodology.</description>
     </item>
     
     <item>
       <title>Teaching (University of Lodz)</title>
-      <link>https://pierzgal.github.io/michalpierzgalski/teaching/</link>
+      <link>/michalpierzgalski/teaching/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pierzgal.github.io/michalpierzgalski/teaching/</guid>
+      <guid>/michalpierzgalski/teaching/</guid>
       <description>This year I teach the following courses:
 2020/2021 (Fall)  Statistics &amp;amp; Demography (L + E)   Syllabus (USOS) My slides for lectures and exercise classes (forthcoming)  2020/2021 (Spring)  Introduction to electoral systems   MS Teams - join a team (join a class as a student)  Use a code to join a team Click Teams Teams button on the left side of the app, then click &amp;ldquo;Join or create a team&amp;rdquo; at the bottom of your teams list.</description>
     </item>
     
     <item>
       <title>Kontakt | Contact</title>
-      <link>https://pierzgal.github.io/michalpierzgalski/contact/</link>
+      <link>/michalpierzgalski/contact/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pierzgal.github.io/michalpierzgalski/contact/</guid>
+      <guid>/michalpierzgalski/contact/</guid>
       <description>Email &amp;lt;- str_c( &amp;#34;michal.pierzgalski&amp;#34;, &amp;#34;@&amp;#34;, &amp;#34;uni.lodz.pl&amp;#34; )  Department of International and Political Studies</description>
     </item>
     
