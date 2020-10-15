@@ -15,7 +15,7 @@
 <meta itemprop="description" content="Some useful R commands for students learning fundamentals of statistics1.">
 <meta itemprop="datePublished" content="2020-10-09T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="196">
+<meta itemprop="wordCount" content="327">
 <meta itemprop="image" content="/michalpierzgalski/images/profile.png"/>
 
 
@@ -134,7 +134,7 @@
   <h1>Learning statistics - a few useful R commands</h1>
 
   <div class="post-date">
-    <time datetime="2020-10-09T00:00:00Z">Oct 9, 2020</time> &middot; 1 min read
+    <time datetime="2020-10-09T00:00:00Z">Oct 9, 2020</time> &middot; 2 min read
   </div>
 
   
@@ -144,21 +144,28 @@
 <script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
 <div id="some-useful-r-commands-for-students-learning-fundamentals-of-statistics" class="section level2">
 <h2>Some useful R commands for students learning fundamentals of statistics</h2>
-<div id="compute-probabilities-using-normally-distributed-data" class="section level3">
-<h3>1. Compute probabilities using normally distributed data</h3>
-<div id="pnormt-mean-sd-function" class="section level5">
-<h5><em>pnorm(t, mean, sd)</em> function</h5>
-<pre class="r"><code># pnorm(); the function pnorm returns the value of the cumulative density function (cdf) of the normal distribution given a certain random variable t, a population mean μ and population standard deviation σ.
+<div id="compute-probabilities-for-normally-distributed-data" class="section level3">
+<h3>1. Compute probabilities for normally distributed data</h3>
+<p><strong>List of useful R functions</strong>:</p>
+<ul>
+<li><em>pnorm()</em>; this function returns the integral from <span class="math inline">\(-\infty\)</span> to <span class="math inline">\(x\)</span> of the pdf of the normal distribution,</li>
+<li><em>dnorm()</em>; this function returns the value of the probability density function for the normal distribution given parameters for <span class="math inline">\(x\)</span>, <span class="math inline">\(\mu\)</span>, and <span class="math inline">\(\sigma\)</span>,</li>
+<li><em>qnorm()</em>; this function is the inverse of the pnorm(). The function qnorm() returns the value of the inverse cumulative density function (cdf) of the normal distribution given a certain random variable <span class="math inline">\(p\)</span>, a population mean <span class="math inline">\(\mu\)</span> and population standard deviation <span class="math inline">\(\sigma\)</span>,</li>
+<li><em>rnorm()</em>; this function generates a vector of normally distributed random variables given a vector length <span class="math inline">\(n\)</span>, a population mean <span class="math inline">\(\mu\)</span> and population standard deviation <span class="math inline">\(\sigma\)</span>.</li>
+</ul>
+<div id="pnormx-mean-sd---some-examples-of-using-pnorm-are-below" class="section level5">
+<h5>- <em>pnorm(x, mean, sd)</em> - some examples of using pnorm() are below:</h5>
+<pre class="r"><code># pnorm(); the function pnorm returns the value of the cumulative density function (cdf) of the normal distribution given a certain random variable x, a population mean μ and population standard deviation σ.
 # The syntax for using pnorm is as follows:
-# pnorm(t, mean, sd)
+# pnorm(x, mean, sd)
 
 ## Example
 
-t = 1.645
+x = 1.645
 mean = 0
 sd = 1
 
-p = pnorm(t, mean, sd)
+p = pnorm(x, mean, sd)
 
 ### Print the outcome
 
@@ -193,6 +200,12 @@ eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAs
 <div data-datacamp-exercise="" data-height="300" data-encoded="true">
 eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiIjIE9wdGlvbnNcbm9wdGlvbnMoXCJzY2lwZW5cIj0xMDAsIFwiZGlnaXRzXCI9NClcblxuIyAyLiBVc2luZyBzdGFuZGFyZCBub3JtYWwgZGlzdHJpYnV0aW9uLCBjb21wdXRlIFAoeCA+IDEuOTYpXG5cbmExIDwtIC0xLjk2XG5hMiA8LSAxLjk2XG5cbnAyID0gMSAtIHBub3JtKGEyLCBtZWFuID0gMCwgc2QgPSAxKVxucHJpbnQocDIpIn0=
 </div>
+</div>
+<div id="dnormx-mean-sd---some-examples-of-using-dnorm-are-below" class="section level5">
+<h5>- <em>dnorm(x, mean, sd)</em> - some examples of using dnorm() are below:</h5>
+<blockquote>
+<p>(…)</p>
+</blockquote>
 </div>
 </div>
 </div>
