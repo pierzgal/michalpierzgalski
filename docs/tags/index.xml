@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Michał Pierzgalski</title>
-    <link>/michalpierzgalski/tags/</link>
+    <link>https://pierzgal.github.io/michalpierzgalski/tags/</link>
     <description>Recent content in Tags on Michał Pierzgalski</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/michalpierzgalski/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://pierzgal.github.io/michalpierzgalski/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>css</title>
-      <link>/michalpierzgalski/tags/css/</link>
+      <link>https://pierzgal.github.io/michalpierzgalski/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/michalpierzgalski/tags/css/</guid>
+      <guid>https://pierzgal.github.io/michalpierzgalski/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>/michalpierzgalski/tags/html/</link>
+      <link>https://pierzgal.github.io/michalpierzgalski/tags/html/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/michalpierzgalski/tags/html/</guid>
+      <guid>https://pierzgal.github.io/michalpierzgalski/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>/michalpierzgalski/tags/markdown/</link>
+      <link>https://pierzgal.github.io/michalpierzgalski/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/michalpierzgalski/tags/markdown/</guid>
+      <guid>https://pierzgal.github.io/michalpierzgalski/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>/michalpierzgalski/tags/themes/</link>
+      <link>https://pierzgal.github.io/michalpierzgalski/tags/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/michalpierzgalski/tags/themes/</guid>
+      <guid>https://pierzgal.github.io/michalpierzgalski/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>/michalpierzgalski/tags/index/</link>
+      <link>https://pierzgal.github.io/michalpierzgalski/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/michalpierzgalski/tags/index/</guid>
+      <guid>https://pierzgal.github.io/michalpierzgalski/tags/index/</guid>
       <description></description>
     </item>
     
