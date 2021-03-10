@@ -41,8 +41,10 @@ blogdown::stop_server()
 # - set base url, e.g. baseurl = "https://pierzgal.github.io/michalpierzgalski/"
 # - add ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # - add publishDir = "docs"
+#
 # blogdown::serve_site()
 # blogdown::build_site()
+#
 # Move site files to github repo:
 # - in Terminal: git add docs/
 # - Git button (upper right window) --> click Commmit (give a name to a commit) --> click Push;
