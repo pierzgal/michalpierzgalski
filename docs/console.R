@@ -2,12 +2,13 @@
 
 library(blogdown)
 
-install_hugo(
+blogdown::install_hugo(
   version = "latest",
   use_brew = Sys.which("brew") != "",
   force = T,
   extended = TRUE
 )
+blogdown::install_hugo()
 blogdown::update_hugo()
 
 file.create('.nojekyll')
