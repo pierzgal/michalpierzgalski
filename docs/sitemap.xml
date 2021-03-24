@@ -28,61 +28,6 @@
   </url>
   
   <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pierzgal.github.io/michalpierzgalski/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pierzgal.github.io/michalpierzgalski/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
@@ -103,7 +48,19 @@
   </url>
   
   <url>
+    <loc>https://pierzgal.github.io/michalpierzgalski/categories/</loc>
+  </url>
+  
+  <url>
     <loc>https://pierzgal.github.io/michalpierzgalski/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pierzgal.github.io/michalpierzgalski/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pierzgal.github.io/michalpierzgalski/tags/</loc>
   </url>
   
 </urlset>
